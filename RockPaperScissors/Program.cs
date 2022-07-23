@@ -10,10 +10,6 @@ namespace RockPaperScissors
             Player player1 = new Player(0);
             Player player2 = new Player(0);
 
-            //string p1 = player1.GetMove();
-            //string p2 = player2.GetMove();
-
-            //string statement = "Player 1 played " + p1 + " and player 2 played " + p2 + ".";
             List<string> whoWon = new List<string>();
             whoWon.Add("Both players win.");
             whoWon.Add("Player 1 wins.");
